@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casing {
+    display: flex;
+    width: 500px;
+    height: 700px;
+    border: 2px solid green;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.display{
+    width: 450px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#AC, #zero{
+    width: 200px;
+    height: 100px;
+}
+
