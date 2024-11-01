@@ -24,3 +24,14 @@ function divide(firstNumber,secondNumber){
 function operate(){
     
 }
+const displayText = document.querySelector(".display")
+const buttons = document.querySelectorAll("buttons")
+
+console.log(buttons)
+const abii = Array.from(buttons)
+console.log(abii)
+
+
+
+
+
